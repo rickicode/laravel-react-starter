@@ -1,9 +1,5 @@
 version = 1
 
-test_patterns = [
-  "tests/**"
-]
-
 [[analyzers]]
 name = "php"
 enabled = true
@@ -31,6 +27,6 @@ enabled = true
 name = "standardjs"
 enabled = true
 
-  [analyzers.meta]
-  skip_doc_coverage = ["class", "magic", "nonpublic"]
-
+test_patterns = [
+  "tests/**"
+]
